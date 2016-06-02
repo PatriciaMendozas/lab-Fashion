@@ -1,0 +1,74 @@
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+body {
+  color: #000;
+}
+
+.plomo {
+  background: #EEE;
+}
+
+.menu > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu > a:hover {
+  color: #fff;
+  background: #F78181;
+}
+
+.mg1 {
+  margin: 1%;
+}
+
+.mg2 {
+  margin: 2% 0%;
+}
+
+.pd1 {
+  margin: 1% 0%;
+}
+
+.pdtb4 {
+  padding: 19%;
+}
+
+.span_reloj {
+  font-size: 358%;
+}
+
+.cartera {
+  background: url("../images/slider1.jpg");
+}
+
+.media {
+  background: url("../images/a2.jpg");
+}
+
+.gorro {
+  background: url("../images/b1.jpg");
+}
+
+.bolso {
+  background: url("../images/c1.jpg");
+}
+
+.cartera_cafe {
+  background: url("../images/d1.jpg");
+}
+
+.marcas {
+  background: url("../images/client-bg.jpg");
+}
+
+.color_white {
+  color: #fff;
+}
+
+.autumn {
+  border: 2px solid #fff;
+  margin: 7% 28% 9%;
+}
