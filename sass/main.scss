@@ -1,18 +1,45 @@
-*{	outline:1px solid rgba(255,0,0,0.3);}
-body{color:#000;}
-.plomo{background:#EEE;}
-.menu> a{text-decoration:none;color:#000;}  
-.menu> a:hover{color:#fff;background: #F78181;}
+/**{	outline:1px solid rgba(255,0,0,0.3);}*/
+body{color:#000; font-family: Arial;}
+$background-plomo:#EEE;
+$background-negro:#000;
+$background-blanco:#fff;
+$background-guinda:#F78181;
+$background-oscuro:#CCCCCC;
+.plomo{background:$background-plomo;}
+.menu> a{text-decoration:none;color:$background-negro;}
+.menu> a:hover{color:$background-blanco; background: $background-guinda;}
+.dropdown-toggle > img, p, span {display:inline-block; margin-left: 4%;}
+.mg0{margin:0%;}
 .mg1{margin:1%;}
 .mg2{margin:2% 0%;}
-.pd1{margin:1% 0%;}
-.pdtb4{padding:19%;}
+.mg5{margin: 5% 0%;}
+.mgl2{margin-left:2%;}
+.pdtb4{padding: 35% 20% 26%;}
+.pdt2{padding-top:2%;}
 .span_reloj{font-size:358%;}
-.cartera{background:url("../images/slider1.jpg");}
-.media{background:url("../images/a2.jpg");}
-.gorro{background:url("../images/b1.jpg");}
-.bolso{background:url("../images/c1.jpg");}
-.cartera_cafe{background:url("../images/d1.jpg");}
-.marcas{background:url("../images/client-bg.jpg");}
-.color_white{color:#fff;}
+.carrito{background: $background-negro; color: $background-blanco; }
+.negro > p {color:$background-negro;}
+
+.cartera{background:url("../images/slider1.jpg")no-repeat left;}
+.cartera:hover{background:url("../images/slider2.jpg")no-repeat right;}
 .autumn{border:2px solid #fff; margin:7% 28% 9%;}
+.menu2> a{text-decoration:none;color:$background-oscuro;}
+.menu2> a:hover{color:$background-negro;}
+
+.border_latest{ border: 1px solid $background-plomo;}
+.media >img{position: relative;}
+.p_guinda{color:$background-guinda;}
+.block{display: inline-block;}
+.inline{display:inline;}
+.block{display: block;}
+.new{position:absolute; background: $background-guinda;color:$background-blanco;
+	padding: 1% 4%;float: left;margin-top:-74%; margin-left:0%;}
+.sale{position:absolute; background: $background-negro;color:$background-blanco;
+	padding: 1% 4%;float: left;margin-top:-87%; margin-left:0%;}
+.p_plomo{color:$background-oscuro;}
+.marcas{background:url("../images/client-bg.jpg")left;}
+.lista_img{width: 10%; margin: 5% 1%;}
+.tachado{text-decoration:line-through;}
+.cart{background: $background-negro; color: $background-blanco;margin-right:15%;}
+.iconos_categorias{font-size: 195%;padding: 45% 65% 45% 1%; border-right:1px solid $background-oscuro;}
+.cont_categorias{border: 2px solid $background-oscuro;margin-left:3%;padding:2% 0%; }

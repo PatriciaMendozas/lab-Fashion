@@ -1,9 +1,7 @@
-* {
-  outline: 1px solid rgba(255, 0, 0, 0.3);
-}
-
+/**{	outline:1px solid rgba(255,0,0,0.3);}*/
 body {
   color: #000;
+  font-family: Arial;
 }
 
 .plomo {
@@ -20,6 +18,15 @@ body {
   background: #F78181;
 }
 
+.dropdown-toggle > img, p, span {
+  display: inline-block;
+  margin-left: 4%;
+}
+
+.mg0 {
+  margin: 0%;
+}
+
 .mg1 {
   margin: 1%;
 }
@@ -28,47 +35,132 @@ body {
   margin: 2% 0%;
 }
 
-.pd1 {
-  margin: 1% 0%;
+.mg5 {
+  margin: 5% 0%;
+}
+
+.mgl2 {
+  margin-left: 2%;
 }
 
 .pdtb4 {
-  padding: 19%;
+  padding: 35% 20% 26%;
+}
+
+.pdt2 {
+  padding-top: 2%;
 }
 
 .span_reloj {
   font-size: 358%;
 }
 
-.cartera {
-  background: url("../images/slider1.jpg");
-}
-
-.media {
-  background: url("../images/a2.jpg");
-}
-
-.gorro {
-  background: url("../images/b1.jpg");
-}
-
-.bolso {
-  background: url("../images/c1.jpg");
-}
-
-.cartera_cafe {
-  background: url("../images/d1.jpg");
-}
-
-.marcas {
-  background: url("../images/client-bg.jpg");
-}
-
-.color_white {
+.carrito {
+  background: #000;
   color: #fff;
+}
+
+.negro > p {
+  color: #000;
+}
+
+.cartera {
+  background: url("../images/slider1.jpg") no-repeat left;
+}
+
+.cartera:hover {
+  background: url("../images/slider2.jpg") no-repeat right;
 }
 
 .autumn {
   border: 2px solid #fff;
   margin: 7% 28% 9%;
+}
+
+.menu2 > a {
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+.menu2 > a:hover {
+  color: #000;
+}
+
+.border_latest {
+  border: 1px solid #EEE;
+}
+
+.media > img {
+  position: relative;
+}
+
+.p_guinda {
+  color: #F78181;
+}
+
+.block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.new {
+  position: absolute;
+  background: #F78181;
+  color: #fff;
+  padding: 1% 4%;
+  float: left;
+  margin-top: -74%;
+  margin-left: 0%;
+}
+
+.sale {
+  position: absolute;
+  background: #000;
+  color: #fff;
+  padding: 1% 4%;
+  float: left;
+  margin-top: -87%;
+  margin-left: 0%;
+}
+
+.p_plomo {
+  color: #CCCCCC;
+}
+
+.marcas {
+  background: url("../images/client-bg.jpg") left;
+}
+
+.lista_img {
+  width: 10%;
+  margin: 5% 1%;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+.cart {
+  background: #000;
+  color: #fff;
+  margin-right: 15%;
+}
+
+.iconos_categorias {
+  font-size: 195%;
+  padding: 45% 65% 45% 1%;
+  border-right: 1px solid #CCCCCC;
+}
+
+.cont_categorias {
+  border: 2px solid #CCCCCC;
+  margin-left: 3%;
+  padding: 2% 0%;
 }
