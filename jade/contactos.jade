@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+	include ./pi/head.jade
+	title contactos
+	body
+		include ./pi/header.jade
+		.row.img_contact
+			.col-md-6
+				.contact_us
+					h3 CONTACT US
+			.col-md-6
+				.datos_contactos
+					p.block Conatactanos
+					p.block 26526262
+					p.block moda@gmail.com
+					p.block Calle La Merced 556 B
+		.row
+			.container
+				.col-md-6.pd0
+					.mapa.mg5
+						iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12085.865746194442!2d-73.9828286!3d40.7737587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf876ccebba645bff!2sEscuela+Juilliard!5e0!3m2!1ses-419!2spe!4v1461345828455" width="560" height="350" frameborder="0" style="border:0" allowfullscreen)
+				.col-md-6.formulario
+					.row
+						.col-md-6.pd0.mgt4.fm
+							input.form-control(type="text" id="text" name="text" placeholder="Fire Name" required)
+						.col-md-6.mgt4.pdr0.fm
+							input.form-control(type="text" id="text" name="text" placeholder="Last Name" required)
+					.row
+						.col-md-6.pd0.mgt4.fm
+							input.form-control(type="Email" id="email" name="Email" placeholder="Email" required)
+						.col-md-6.mgt4.pdr0.fm
+							input.form-control(type="text" id="text" name="text" placeholder="Wb side" required)
+					.row
+						input.form-control.mgt4(type="text" id="text" name="text" placeholder="Subjete" required)
+						textarea.form-control.mgt4(type="text" id="text" name="text" placeholder="Message" cols="56" rows="7" required)
+				.row
+					button.btn.btn-default.btn-sm.active.pull-right.mg2
+						p SEND
+		include ./pi/footer.jade
+
+
